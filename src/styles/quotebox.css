@@ -1,0 +1,34 @@
+.quotebox {
+    width: 50%;
+    height: 50%;
+    border: 3px solid lightcyan;;
+    box-shadow: 0 0 5px lightblue,
+                0 0 15px lightblue,
+                0 0 50px lightblue,
+                0 0 120px lightblue;
+    text-align: center;
+    background-color: #fff;
+}
+
+.quotebox h3 {
+    font-size: 20px;
+    font-family: initial;
+}
+
+.quotebox h5{
+    text-align: right;
+    margin-right: 50px;
+
+}
+.quotebox button{
+    align-items: right;
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.quote1{
+    display: flex;
+    justify-content: right;
+    margin-right: 60px ;
+}
